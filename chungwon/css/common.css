@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,button{margin:0;padding:0}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li{list-style:none}
+blockquote, q{quotes: none}
+blockquote:before, blockquote:after,q:before, q:after{content:'';content:none}
+input,select,textarea,button{vertical-align:middle}
+input::-ms-clear{display:none}
+button{border:0 none;background-color:transparent;cursor:pointer}
+body{background:#fff}
+body,th,td,input,select,textarea,button{font-size:12px;line-height:1.5;font-weight:400;font-family:Noto Sans Regular, AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;color:#000}
+a{color:#1a1a1a;text-decoration:none}
+a:active, a:hover{text-decoration:underline}
+a:active{background-color:transparent}
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
+table{border-collapse:collapse;border-spacing:0;}
+body{-webkit-text-size-adjust:none}
+
+/* global */
+.ir_pm{display:block;overflow:hidden;font-size:1px;line-height:0;color:transparent}
+.screen_out{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent:-9999px}
+
+/* skip navigation */
+#chwIndex{overflow:hidden;position:absolute;left:-9999px;width:0;height:1px;margin:0;padding:0}
+
+/* common */
+.logo_chw{display:block;overflow:hidden;font-size:0;line-height:0;background-repeat:no-repeat;background-size:cover;text-indent:-9999px}
+.ico_chw{display:block;overflow:hidden;font-size:0;line-height:0px;background:url(../images/ico_chw.png) no-repeat;text-indent:-9999px}
+.chw_wrap{min-width:1200px;width:100%}
+.thumb_g{display:block;width:100%}
+
+/* header */
+.chw_header{width:1200px;margin:0 auto}
+.chw_header .logo_chw{width:176px;height:67px;background-image:url(../images/logo_header.png)}
+.chw_header .inner_header{padding:23px 0 21px}
+.chw_header .inner_header:after{display:block;clear:both;content:''}
+.chw_header h1{float:left}
+.chw_header .list_gnb{float:right;padding:20px 0 0}
+.list_gnb > li{float:left;position:relative;margin:0 0 0 40px}
+.list_gnb .link_gnb{font-size:20px;text-decoration:none}
+.list_gnb .link_gnb:hover{color:#00a1e9}
+.list_gnb .list_sub{display:none;position:absolute;top:50px;left:-20px;width:140px;padding:10px 0;border-radius:4px;box-shadow:1px 2px 8px 0px rgba(0,0,0,.3);background-color:#fff}
+.list_gnb .list_sub .link_sub{display:block;padding:8px 20px;font-size:14px}
+.list_gnb .list_sub .link_sub:hover{font-weight:bold;color:#00a1e9;text-decoration:none}
+
+/* footer */
+.chw_footer{background-color:#5e5e5e}
+.chw_footer .logo_chw{width:162px;height:60px;background-image:url(../images/logo_footer.png)}
+.chw_footer .inner_footer{width:1200px;margin:0 auto;padding:60px 0;}
+.chw_footer .inner_footer:after{display:block;clear:both;content:''}
+.chw_footer h1{float:left}
+.chw_footer .info_company{float:left;padding:0 0 0 60px;font-size:15px;color:#c1bcbc}
+.chw_footer .opt_chw{float:right}
+.chw_footer .opt_chw .list_opt{top:inherit;bottom:50px;border-bottom:1px solid #f0f0f0}
+.chw_footer .opt_chw .ico_arrow{background-position:-10px -30px}
+.chw_footer .opt_chw.opt_open .ico_arrow{background-position:0 -30px}
+
+
+
+
+
+
+
