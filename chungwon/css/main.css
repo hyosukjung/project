@@ -106,5 +106,15 @@
 .list_manage{padding:35px 0 0;text-align:center}
 .list_manage .link_manage{display:inline-block;width:132px;height:60px;margin:0 2px 0 3px;font-weight:bold;font-size:17px;line-height:60px;color:#18467d;background-color:#fff}*/
 
-
+/* 퀵메뉴 */
+.quick_chw{position:absolute;top:111px;right:50%;width:110px;margin-right:-720px;border:1px solid #ababab;box-sizing:border-box}
+.quick_chw .link_quick{display:table;width:100%;height:70px;text-align:center}
+.quick_chw .link_quick + .link_quick{border-top:1px solid #ababab}
+.quick_chw .link_quick .ico_chw{display:inline-block;vertical-align:top}
+.quick_chw .inner_quick{display:table-cell;vertical-align:middle}
+.quick_chw .ico_youtube{width:87px;height:44px;background-position:0 -70px}
+.quick_chw .ico_nblog{width:39px;height:39px;background-position:0 -120px}
+.quick_chw .ico_nband{width:37px;height:37px;background-position:-50px -120px}
+.quick_chw .ico_npost{width:37px;height:37px;background-position:-90px -120px}
+.quick_chw .txt_quick{display:inline-block;padding:0 0 0 8px;font-size:13px;text-align:left}
 

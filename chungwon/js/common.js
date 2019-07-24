@@ -43,4 +43,12 @@ $(document).ready(function(){
         slideMargin:26,
         moveSlides:1
   	});
+
+  	// 퀵메뉴
+  	$(window).scroll(function(){
+	  	var scrollT = $(window).scrollTop();
+	  	var quickMenu = $(".quick_chw");
+	  	quickMenu.stop().animate({"top":scrollT+111},250);
+  	});
+
 });

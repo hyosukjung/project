@@ -38,11 +38,12 @@ body{-webkit-text-size-adjust:none}
 .chw_header .inner_header:after{display:block;clear:both;content:''}
 .chw_header h1{float:left}
 .chw_header .list_gnb{float:right;padding:20px 0 0}
-.list_gnb > li{float:left;position:relative;margin:0 0 0 40px}
+.list_gnb > li{float:left;position:relative;margin:0 0 0 30px}
+.list_gnb > li:first-child{margin-left:0}
 .list_gnb .link_gnb{font-size:20px;text-decoration:none}
 .list_gnb .link_gnb:hover{color:#00a1e9}
-.list_gnb .list_sub{display:none;position:absolute;top:50px;left:-20px;width:140px;padding:10px 0;border-radius:4px;box-shadow:1px 2px 8px 0px rgba(0,0,0,.3);background-color:#fff}
-.list_gnb .list_sub .link_sub{display:block;padding:8px 20px;font-size:14px}
+.list_gnb .list_sub{display:none;position:absolute;top:50px;left:-20px;z-index:1;padding:10px 0;border-radius:4px;box-shadow:1px 2px 8px 0px rgba(0,0,0,.3);background-color:#fff}
+.list_gnb .list_sub .link_sub{display:block;padding:8px 20px;font-size:14px;white-space:nowrap}
 .list_gnb .list_sub .link_sub:hover{font-weight:bold;color:#00a1e9;text-decoration:none}
 
 /* footer */
