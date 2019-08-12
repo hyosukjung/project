@@ -10,9 +10,9 @@
 .opt_chw.opt_open .ico_arrow{background-position:-10px -30px}
 
 /* 콘텐츠 */
-.chw_cont{width:1200px;margin:0 auto;padding:0 0 60px}
+.chw_cont{padding:0 0 60px}
 
-.chw_service{overflow:hidden}
+.chw_service{overflow:hidden;width:1200px;margin:0 auto}
 .chw_service + .cont_area{padding:20px 0 0}
 .info_service{float:left;width:586px}
 .info_service .item_slide{height:400px;padding:84px 0 0 50px;background-repeat:no-repeat;background-size:cover;box-sizing:border-box}
@@ -40,7 +40,7 @@
 .list_service .link_service{display:block;width:125px;height:35px;margin:20px auto 0;font-weight:bold;font-size:16px;line-height:35px;background-color:rgba(255,255,255,.89)}
 .list_service .link_service:hover{text-decoration:none}
 
-.cont_area{padding:60px 0 0}
+.cont_area{width:1200px;margin:0 auto;padding:60px 0 0}
 .cont_area:after{display:block;clear:both;content:''}
 .cont_area .tit_chw{margin:0 0 20px;padding:0 0 0 10px;border-left:5px solid #5ecbe2;font-size:22px;line-height:1.2}
 .list_cont:after{display:block;clear:both;content:''}
@@ -62,8 +62,8 @@
 .list_cont_type2 li{width:306px}
 .list_cont_type2 .tit_chw{display:block}
 
-.cont_search{margin:60px 0 0;padding:35px 39px 40px;background-color:#ebebeb}
-.cont_search .info_search{padding:35px 0 0}
+.cont_search{margin:60px 0 0;padding:35px 0 40px;background-color:#ebebeb}
+.cont_search .info_search{width:1200px;margin:0 auto;padding:35px 0 0}
 .cont_search .info_search:after{display:block;clear:both;content:''}
 .cont_search .detail_search{float:left}
 .cont_search .tit_chw{font-size:20px;text-align:center}
@@ -84,7 +84,7 @@
 .link_ask{display:block;width:176px;height:46px;margin:90px auto 0;font-size:18px;line-height:46px;color:#49a6ad;background-color:#fff;text-align:center}
 .link_ask:active{background-color:#fff}
 
-.cont_info{overflow:hidden;height:200px;padding:60px 0 0}
+.cont_info{overflow:hidden;width:1200px;height:200px;margin:0 auto;padding:60px 0 0}
 .info_news{float:left;position:relative;width:586px;height:100%;padding:20px 36px 26px 34px;background-color:#ebebeb;box-sizing:border-box}
 .info_news .tit_chw{font-size:20px}
 .info_news .link_more{position:absolute;top:26px;right:35px}
