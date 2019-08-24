@@ -1,5 +1,17 @@
 @charset "utf-8";
 
+/* 테이블 공통 */
+.wrap_table{width:1200px;margin:0 auto}
+.table_chw{border-top:2px solid #666}
+.table_chw .table_head tr{border-bottom:1px solid #666}
+.table_chw .table_body tr{border-bottom:1px solid #eee}
+.table_chw th{padding:15px 0;font-size:18px}
+.table_chw td{padding:15px 0;font-size:16px;color:#333;text-align:center}
+.table_chw td:nth-child(3){text-align:left}
+
+/* 페이징 공통 */
+
+
 /* 셀렉트박스 공통 */
 .opt_chw{position:relative}
 .opt_chw .btn_opt{overflow:hidden;position:relative;z-index:1;width:230px;height:50px;padding:0 18px 0 20px;font-size:16px;color:#aeaeae;background-color:#fff;box-sizing:border-box;text-align:left}
