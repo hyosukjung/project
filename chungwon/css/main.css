@@ -1,16 +1,21 @@
 @charset "utf-8";
 
 /* 테이블 공통 */
-.wrap_table{width:1200px;margin:0 auto}
-.table_chw{border-top:2px solid #666}
+.wrap_table{width:1200px;margin:0 auto;padding:60px 0}
+.table_chw{width:100%;table-layout:fixed;border-top:2px solid #666}
 .table_chw .table_head tr{border-bottom:1px solid #666}
 .table_chw .table_body tr{border-bottom:1px solid #eee}
 .table_chw th{padding:15px 0;font-size:18px}
 .table_chw td{padding:15px 0;font-size:16px;color:#333;text-align:center}
 .table_chw td:nth-child(3){text-align:left}
+.table_chw .link_board{display:block;overflow:hidden;width:100%;padding:0 30px 0 0;white-space:nowrap;text-overflow:ellipsis;box-sizing:border-box}
 
 /* 페이징 공통 */
-
+.paging_chw{padding:30px 0 0;text-align:center}
+.paging_chw .link_direction{display:inline-block;width:30px;height:30px;border:1px solid #777;font-size:20px}
+.paging_chw .link_direction:hover{border-color:#18467d;color:#fff;background-color:#18467d;text-decoration:none}
+.paging_chw .link_paging{margin:0 5px;padding:0 5px;font-size:20px;font-family:Noto Sans Light, AppleSDGothicNeo-Light,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif}
+.paging_chw .link_paging:hover{font-weight:bold;color:#18467d;text-decoration:none}
 
 /* 셀렉트박스 공통 */
 .opt_chw{position:relative}
@@ -129,4 +134,38 @@
 .quick_chw .ico_nband{width:37px;height:37px;background-position:-50px -120px}
 .quick_chw .ico_npost{width:37px;height:37px;background-position:-90px -120px}
 .quick_chw .txt_quick{display:inline-block;padding:0 0 0 8px;font-size:13px;text-align:left}
+
+/* 게시판 목록*/
+.board_top{width:1200px;margin:0 auto;padding:0 0 20px}
+.board_top:after{display:block;clear:both;content:''}
+.board_top .txt_board{float:left;padding:10px 0 0;font-size:18px}
+.board_top .txt_board em{color:#00a1e9}
+.board_top .search_board{float:right}
+.search_board .opt_chw{float:left;position:relative;border:1px solid #666}
+.search_board .btn_opt{width:70px;height:40px;padding:0 10px;font-size:14px;color:#777}
+.search_board .list_opt{top:31px;padding:5px 0}
+.search_board .link_opt{padding:2px 8px}
+.search_board .wrap_inp{float:right;position:relative;height:42px;margin:0 0 0 -1px;padding:11px 40px 0 12px;border:1px solid #777;box-sizing:border-box}
+.search_board .inp_g{border:0 none;font-size:14px}
+.search_board .btn_search{position:absolute;top:11px;right:12px;width:20px;height:20px;background-position:-80px 0}
+
+/* 게시판 뷰 */
+.wrap_view{width:1200px;margin:60px auto 80px;border-top:2px solid #666}
+.view_top{display:table;overflow:hidden;width:100%;padding:15px;border-bottom:1px solid #ccc;box-sizing:border-box}
+.view_top .tit_view{display:table-cell;width:920px;height:100%;padding:0 50px 0 0;font-size:22px;vertical-align:middle;box-sizing:border-box}
+.view_top .info_view{display:table-cell;height:100%;font-size:14px;vertical-align:middle}
+.view_top .info_view dt{float:left;padding:0 10px 0 0;font-family:Noto Sans Medium, AppleSDGothicNeo-Medium,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif}
+.view_top .info_view dd{float:left;font-family:Noto Sans Light, AppleSDGothicNeo-Light,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif}
+.view_top .info_view dd + dt{padding-left:40px}
+.board_view{padding:20px 15px}
+.view_bottom{border-top:2px solid #333}
+.view_bottom .link_near{display:block;position:relative;padding:15px 30px;border-bottom:1px solid #666}
+.view_bottom .link_near:hover{text-decoration:none}
+.view_bottom .link_near:hover .tit_near{color:#333}
+.view_bottom .tit_near{display:block;overflow:hidden;width:100%;padding:0 0 0 140px;font-size:14px;color:#a1a1a1;box-sizing:border-box;white-space:nowrap;text-overflow:ellipsis}
+.view_bottom .txt_near{position:absolute;top:15px;left:30px;font-size:14px}
+.view_bottom .ico_near{display:inline-block;margin:3px 0 0;padding:0 10px 0 0;font-size:10px;vertical-align:top}
+
+
+
 
