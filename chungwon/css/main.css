@@ -26,6 +26,12 @@
 .opt_chw .ico_arrow{float:right;width:10px;height:7px;margin:9px 0 0;background-position:0 -30px}
 .opt_chw.opt_open .ico_arrow{background-position:-10px -30px}
 
+/* 체크박스 공통 */
+.chk_g {position:relative}
+.chk_g .inp_chk{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0.01}
+.chk_g .inp_chk:checked + .lab_chk{background-position:-70px -20px}
+.chk_g .lab_chk{display:inline-block;width:20px;height:20px;vertical-align:top;background-position:-50px -20px}
+
 /* 콘텐츠 */
 .chw_cont{padding:0 0 60px}
 
@@ -169,14 +175,35 @@
 .item_login{overflow:hidden;padding:40px 0 0}
 .item_login dt{float:left;width:60px;padding:10px 0 0 20px}
 .item_login dd{overflow:hidden;padding:0 0 0 50px}
+.item_login dd .desc_g{padding:6px 0 0;color:#666}
 .item_login .inp_g{width:100%;padding:10px 15px;border:none;font-size:16px;background-color:#f1f1f1;box-sizing:border-box}
 .lab_login{font-size:16px;font-family:Noto Sans Bold, AppleSDGothicNeo-Bold,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;color:#333}
-.btn_login{width:100%;height:60px;margin:60px 0 0;font-size:24px;color:#fff;background-color:#18467d}
+.btn_login{width:100%;height:60px;margin:60px 0 0;font-size:22px;color:#fff;background-color:#18467d}
+.btn_login:hover{background-color:#0d294a}
 .login_bottom{overflow:hidden;padding:20px 40px;margin:-1px 0 0;border:1px solid #e0e0e0}
 .login_bottom .link_signin{float:left}
 .login_bottom .find_login{float:right}
 .login_bottom .find_login .link_login{position:relative;padding:0 0 0 20px}
 .login_bottom .find_login .link_login:first-child:after{position:absolute;top:0;right:-12px;width:1px;height:100%;background-color:#ccc;content:''}
 
+/* 회원가입 */
+.agree_signin{padding:20px 0 40px}
+.agree_signin .tit_agree{font-size:16px}
+.agree_signin .box_agree{overflow:auto;height:200px;margin:10px 0 0;border:1px solid #e1e1e1;font-size:13px;background-color:#f1f1f1}
+.agree_signin .box_agree .inner_box{padding:30px 20px}
+.chk_signin{overflow:hidden}
+.chk_signin .chk_g{float:right;padding:10px 0 0;font-size:14px}
 
-
+.wrap_signin{width:800px;margin:0 auto;padding:40px 0 60px}
+.tit_sign{display:block;padding:0 0 20px;font-size:26px}
+.signin_chw{border-top:2px solid #333}
+.item_signin{overflow:hidden;border-bottom:1px solid #666}
+.item_signin dt{float:left;width:150px;height:74px;padding:24px 0 0 20px;border-bottom:1px solid #efefef;font-size:16px;box-sizing:border-box}
+.item_signin dt:nth-last-of-type(1){border-bottom:0 none}
+.item_signin dd{overflow:hidden;height:74px;padding:16px 20px;border-bottom:1px solid #efefef;box-sizing:border-box}
+.item_signin dd:nth-last-of-type(1){border-bottom:0 none}
+.item_signin .signin_essential .lab_g{position:relative}
+.item_signin .signin_essential .lab_g:after{position:absolute;top:0;right:-10px;color:#de0000;content:'*'}
+.item_signin .inp_g{width:100%;padding:10px;box-sizing:border-box}
+.btn_signin{display:block;width:120px;height:60px;margin:40px auto 0;font-size:20px;color:#fff;background-color:#18467d}
+.btn_signin:hover{background-color:#0d294a}
