@@ -117,11 +117,6 @@
 .info_location .tit_chw{display:block;padding:50px 0 0;font-size:23px;color:#fff;text-align:center}
 .info_location .tit_chw .ico_location{display:inline-block;width:28px;height:40px;margin:0 10px 0 0;background-position:-20px -30px;vertical-align:top}
 .info_location .link_location{display:block;width:132px;height:40px;margin:26px auto 0;font-size:17px;line-height:40px;color:#18467d;background-color:#fff;text-align:center}
-/*.info_manage{float:right;width:750px;height:100%;padding:45px 0 0;background-color:#7492b5;box-sizing:border-box}
-.info_manage .tit_chw{font-size:20px;color:#fff;text-align:center}
-.info_manage .ico_search{display:inline-block;width:20px;height:20px;margin:4px 10px 0 0;background-position:-60px 0;vertical-align:top}
-.list_manage{padding:35px 0 0;text-align:center}
-.list_manage .link_manage{display:inline-block;width:132px;height:60px;margin:0 2px 0 3px;font-weight:bold;font-size:17px;line-height:60px;color:#18467d;background-color:#fff}*/
 
 /* 퀵메뉴 */
 .quick_chw{position:absolute;top:111px;right:50%;width:110px;margin-right:-720px;border:1px solid #ababab;box-sizing:border-box}
