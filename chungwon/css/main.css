@@ -150,6 +150,10 @@
 .search_board .inp_g{border:0 none;font-size:14px}
 .search_board .btn_search{position:absolute;top:11px;right:12px;width:20px;height:20px;background-position:-80px 0}
 
+/* 게시판 쓰기 */
+.wrap_write{width:800px;margin:40px auto;border-top:2px solid #333}
+.wrap_write .tf_g{width:100%;height:250px;border-color:#ccc}
+
 /* 게시판 뷰 */
 .wrap_view{width:1200px;margin:60px auto 80px;border-top:2px solid #666}
 .view_top{display:table;overflow:hidden;width:100%;padding:15px;border-bottom:1px solid #ccc;box-sizing:border-box}
@@ -197,19 +201,23 @@
 .wrap_signin{width:800px;margin:0 auto;padding:40px 0 60px}
 .tit_sign{display:block;padding:0 0 20px;font-size:26px}
 .signin_chw{border-top:2px solid #333}
-.item_signin{border-bottom:1px solid #666}
-.item_signin:after{display:block;clear:both;content:''}
-.item_signin dt{float:left;width:150px;height:74px;padding:24px 0 0 20px;border-bottom:1px solid #efefef;font-size:16px;box-sizing:border-box}
-.item_signin dt:nth-last-of-type(1){border-bottom:0 none}
-.item_signin dd{float:left;width:650px;height:74px;padding:16px 20px;border-bottom:1px solid #efefef;box-sizing:border-box}
-.item_signin dd:nth-last-of-type(1){border-bottom:0 none}
-.item_signin .signin_essential .lab_g{position:relative}
-.item_signin .signin_essential .lab_g:after{position:absolute;top:0;right:-10px;color:#de0000;content:'*'}
-.item_signin .inp_g{width:100%;padding:10px;box-sizing:border-box}
-.item_signin .inp_g2{width:200px;padding:10px;box-sizing:border-box}
-.item_signin .inp_g3{width:100px;padding:10px;box-sizing:border-box}
-.item_signin .opt_chw{display:inline-block;width:200px;height:42px;vertical-align:top;box-sizing:border-box}
-.item_signin .btn_opt{width:100%;height:100%;border:1px solid #e1e1e1;box-sizing:border-box}
+.list_info{border-bottom:1px solid #666}
+.list_info:after{display:block;clear:both;content:''}
+.list_info dt{float:left;width:150px;height:74px;padding:24px 0 0 20px;border-bottom:1px solid #efefef;font-size:16px;box-sizing:border-box}
+.list_info dt:nth-last-of-type(1){border-bottom:0 none}
+.list_info dt.item_type{height:285px}
+.list_info dd{float:left;width:650px;height:74px;padding:16px 20px;border-bottom:1px solid #efefef;box-sizing:border-box}
+.list_info dd:nth-last-of-type(1){border-bottom:0 none}
+.list_info .item_type{height:auto}
+.list_info .signin_essential .lab_g{position:relative}
+.list_info .signin_essential .lab_g:after{position:absolute;top:0;right:-10px;color:#de0000;content:'*'}
+.list_info .inp_g{width:100%;padding:10px;box-sizing:border-box}
+.list_info .inp_g2{width:200px;padding:10px;box-sizing:border-box}
+.list_info .inp_g3{width:100px;padding:10px;box-sizing:border-box}
+.list_info .opt_chw{display:inline-block;width:200px;height:42px;vertical-align:top;box-sizing:border-box}
+.list_info .btn_opt{width:100%;height:100%;border:1px solid #e1e1e1;box-sizing:border-box}
+.list_info .txt_file{display:inline-block;width:500px;height:42px;margin:0 7px 0 0;border:1px solid #e1e1e1;box-sizing:border-box;vertical-align:top}
+.list_info .btn_find{width:100px;height:42px;font-size:16px;color:#fff;background-color:#ccc}
 .btn_wrap {text-align:center;}
 .btn_signin{display:inline-block;width:120px;height:60px;margin:40px auto 0;font-size:20px;color:#fff;background-color:#18467d}
 .btn_signin:hover{background-color:#0d294a}
