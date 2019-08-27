@@ -94,6 +94,8 @@
 .cont_search .opt_chw{float:left}
 .cont_search .opt_chw + .opt_chw{margin:0 0 0 10px}
 .cont_search .btn_search{float:right;width:160px;height:50px;font-size:16px;color:#fff;background-color:#18467d}
+.cont_search .wrap_inp{float:left;width:230px;height:50px;margin:0 0 0 10px;padding:11px 18px 11px 20px;background-color:#fff;box-sizing:border-box}
+.cont_search .inp_g{border:0 none;font-size:16px}
 
 .cont_area .bx-wrapper .bx-controls-direction a{top:-15px;width:18px;height:20px;background-color:#fff}
 .cont_area .bx-wrapper .bx-prev{left:inherit;right:17px;background:url(../images/ico_chw.png) no-repeat 0 0}
@@ -136,7 +138,7 @@
 .quick_chw .ico_npost{width:37px;height:37px;background-position:-90px -120px}
 .quick_chw .txt_quick{display:inline-block;padding:0 0 0 8px;font-size:13px;text-align:left}
 
-/* 게시판 목록*/
+/* 게시판 목록 */
 .board_top{padding:0 0 20px}
 .board_top:after{display:block;clear:both;content:''}
 .board_top .txt_board{float:left;padding:10px 0 0;font-size:18px}
@@ -217,9 +219,15 @@
 .list_info .opt_chw{display:inline-block;width:200px;height:42px;vertical-align:top;box-sizing:border-box}
 .list_info .btn_opt{width:100%;height:100%;border:1px solid #e1e1e1;box-sizing:border-box}
 .list_info .txt_file{display:inline-block;width:500px;height:42px;margin:0 7px 0 0;border:1px solid #e1e1e1;box-sizing:border-box;vertical-align:top}
-.list_info .btn_find{width:100px;height:42px;font-size:16px;color:#fff;background-color:#ccc}
+.list_info .inp_file{width:100px;height:42px;font-size:16px;color:#fff;background-color:#ccc}
 .btn_wrap {text-align:center;}
 .btn_signin{display:inline-block;width:120px;height:60px;margin:40px auto 0;font-size:20px;color:#fff;background-color:#18467d}
 .btn_signin:hover{background-color:#0d294a}
 .btn_cancel{display:inline-block;width:120px;height:60px;margin:40px auto 0;font-size:20px;color:#555;background-color:#d7d7d7;}
 .btn_cancel:hover{background-color:#ccc;}
+
+/* 임대매물시세 */
+.rent_chw .list_cont{width:1200px;margin:0 auto;padding:20px 0 0}
+.rent_chw .list_cont li{width:280px;margin:40px 26px 0 0}
+.rent_chw .list_cont li:nth-child(4n){margin-right:0}
+.rent_chw .list_cont .link_cont{padding:0}
