@@ -1,21 +1,24 @@
 @charset "utf-8";
 
 /* 테이블 공통 */
-.wrap_table{width:1200px;margin:0 auto;padding:60px 0}
+.wrap_table{width:1200px;margin:0 auto;padding:30px 0}
 .table_chw{width:100%;table-layout:fixed;border-top:2px solid #666}
 .table_chw .table_head tr{border-bottom:1px solid #666}
 .table_chw .table_body tr{border-bottom:1px solid #eee}
-.table_chw th{padding:15px 0;font-size:18px}
-.table_chw td{padding:15px 0;font-size:16px;color:#333;text-align:center}
+.table_chw .table_body tr:hover{background: #f1f1f1;}
+.table_chw th{padding:25px 0;font-size:18px;;}
+.table_chw td{padding:25px 0;font-size:16px;color:#333;text-align:center}
 .table_chw td:nth-child(3){text-align:left}
 .table_chw .link_board{display:block;overflow:hidden;width:100%;padding:0 30px 0 0;white-space:nowrap;text-overflow:ellipsis;box-sizing:border-box}
 
 /* 페이징 공통 */
 .paging_chw{padding:30px 0 0;text-align:center}
-.paging_chw .link_direction{display:inline-block;width:30px;height:30px;border:1px solid #777;font-size:20px}
+.paging_chw .link_direction{display:inline-block;width:30px;height:30px;border-radius:15px; background:#ddd; /*border:1px solid #777;*/font-size:20px}
 .paging_chw .link_direction:hover{border-color:#18467d;color:#fff;background-color:#18467d;text-decoration:none}
 .paging_chw .link_paging{margin:0 5px;padding:0 5px;font-size:20px;font-family:Noto Sans Light, AppleSDGothicNeo-Light,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif}
 .paging_chw .link_paging:hover{font-weight:bold;color:#18467d;text-decoration:none}
+.paging_chw .active {background: #18467d; display:inline-block; color:#fff; padding:0; border-radius: 15px; width:30px; height: 30px; font-weight:bold;}
+.paging_chw .active:hover {color:#fff; font-weight: bold;}
 
 /* 셀렉트박스 공통 */
 .opt_chw{position:relative}
@@ -201,7 +204,8 @@
 .chk_signin .chk_g{float:right;padding:10px 0 0;font-size:14px}
 
 .wrap_signin{width:800px;margin:0 auto;padding:40px 0 60px}
-.tit_sign{display:block;padding:0 0 20px;font-size:26px}
+.tit_sign{display:block; width:1200px; margin:0 auto; padding:40px 0 20px;font-size:26px; position: relative;}
+.tit_sign:after {display: block; width: 30px; height:2px; background: #333; content:''; margin-top:15px; margin-bottom:20px; } 
 .signin_chw{border-top:2px solid #333}
 .list_info{border-bottom:1px solid #666}
 .list_info:after{display:block;clear:both;content:''}
@@ -227,7 +231,10 @@
 .btn_cancel:hover{background-color:#ccc;}
 
 /* 임대매물시세 */
+.rent_chw {margin-top:30px;}
 .rent_chw .list_cont{width:1200px;margin:0 auto;padding:20px 0 0}
 .rent_chw .list_cont li{width:280px;margin:40px 26px 0 0}
 .rent_chw .list_cont li:nth-child(4n){margin-right:0}
 .rent_chw .list_cont .link_cont{padding:0}
+.rent_chw .cont_search {width:1200px; margin:0 auto;}
+.rent_chw .cont_search .info_search {width:1140px; padding-top:0; padding-left:30px; padding-right:30px;}
