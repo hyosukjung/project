@@ -17,6 +17,7 @@ a:active{background-color:transparent}
 address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 table{border-collapse:collapse;border-spacing:0;}
 body{-webkit-text-size-adjust:none}
+fieldset{min-width:auto}
 
 /* global */
 .ir_pm{display:block;overflow:hidden;font-size:1px;line-height:0;color:transparent}
